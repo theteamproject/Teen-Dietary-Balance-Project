@@ -1,0 +1,158 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4fdf4;
+    color: #333;
+}
+
+.header {
+    background-color: #b9e6c9;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 2.3em;
+    color: #2d4730;
+}
+
+.header-left h2 {
+    margin: 8px 0 0;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #3d5c3f;
+}
+
+.header-right {
+    flex-shrink: 0;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+    background-color: #e6f7e6;
+}
+
+.diet-table {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.diet-table h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #c2f0c2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.footer {
+    background-color: #b9e6c9;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+.diet-info {
+    background-color: #eaffea;
+    padding: 25px 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.diet-info h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: #2b6e2f;
+}
+
+.diet-info p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.diet-info h4 {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #1f5c25;
+}
+
+.diet-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.diet-info li {
+    margin-bottom: 8px;
+}
+
+.diet-info h4 {
+    margin-top: 25px;
+    font-size: 1.3em;
+    color: #1f5c25;
+}
+
+.diet-info ul li strong {
+    color: #2d4730;
+}
+
+.perspectives {
+    background-color: #eaffea;
+    padding: 25px 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.perspectives h4 {
+    margin-top: 30px;
+    font-size: 1.3em;
+    color: #1f5c25;
+}
+
+.perspectives ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.perspectives li {
+    margin-bottom: 8px;
+}
+
+.perspectives li strong {
+    color: #2d4730;
+}
