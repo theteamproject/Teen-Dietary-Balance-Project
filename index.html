@@ -4,198 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Perspectives – Healthy Diet</title>
-    <link rel="stylesheet" href="teamproject.css">
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4fdf4; color: #333; }
-        .header { background-color: #b9e6c9; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
-        .header-left h1 { margin: 0; font-size: 2.3em; color: #2d4730; }
-        .header-left h2 { margin: 8px 0 0; font-weight: normal; font-size: 1.1em; color: #3d5c3f; }
-        .header-right { flex-shrink: 0; }
-        .logo { width: 90px; height: auto; }
-        .intro { padding: 20px; text-align: center; background-color: #e6f7e6; }
-        .diet-table { padding: 20px; max-width: 900px; margin: auto; }
-        .diet-table h3 { text-align: center; margin-bottom: 15px; }
-        table { width: 100%; border-collapse: collapse; background-color: white; }
-        th, td { border: 1px solid #ccc; padding: 12px; text-align: center; }
-        th { background-color: #c2f0c2; }
-        tr:nth-child(even) { background-color: #f9f9f9; }
-        .footer { background-color: #b9e6c9; padding: 15px; text-align: center; font-size: 0.9em; margin-top: 40px; }
-        .diet-info { background-color: #eaffea; padding: 25px 20px; max-width: 900px; margin: 30px auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); }
-        .diet-info h3 { font-size: 1.6em; margin-bottom: 10px; color: #2b6e2f; }
-        .diet-info p { margin-bottom: 12px; line-height: 1.6; }
-        .diet-info h4 { margin-top: 20px; font-size: 1.2em; color: #1f5c25; }
-        .diet-info ul { list-style-type: disc; padding-left: 20px; margin-top: 10px; }
-        .diet-info li { margin-bottom: 8px; }
-        
-        /* Calorie Calculator Styles */
-        .calculator-container { max-width: 600px; margin: auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
-        .calculator-container h2 { text-align: center; font-size: 1.8em; color: #333; }
-        label, input, select { display: block; margin-bottom: 10px; width: 100%; padding: 8px; }
-        button { padding: 10px 20px; font-size: 1.1em; background-color: #2d4730; color: white; border: none; cursor: pointer; }
-        button:hover { background-color: #1f5c25; }
-        #result { margin-top: 20px; font-size: 1.2em; font-weight: bold; text-align: center; }
-    </style>
+    <link rel="stylesheet" href="global.css">
 </head>
 <body>
+
     <header class="header">
         <div class="header-left">
             <h1>Global Perspectives</h1>
             <h2>Teen Dietary Balance Project</h2>
         </div>
-        <div class="header-right">
+        <div>
             <img src="planet-earth.png" alt="Earth Logo" class="logo">
         </div>
     </header>
 
-    <section class="intro">
-        <p>Welcome to our team project! Our goal is to raise awareness among teenagers about healthy eating habits across different cultures.</p>
-    </section>
+    <div class="container">
 
-    <section class="diet-info">
-        <h3>Why a Balanced Diet Matters</h3>
-        <p>
-            Eating well plays a role in keeping us healthy and feeling good. A balanced diet helps our body get the right mix of vitamins, carbs, minerals, proteins and fats it needs to work at its best. What we eat directly impacts how much energy we have and how clearly we think, because food provides the fuel and raw materials our body depends on every day.
-        </p>
-        <p>
-            Furthermore, when it comes to children, teenagers, and pregnant women, getting the right nutrition is especially for healthy growth, development, and reproduction. Key nutrients such as calcium, iron, and folic acid play a crucial role in supporting strong bones and the proper development of the fetus.
-        </p>
-        <p>
-            A balanced diet helps maintain high energy levels throughout the day. It also helps reduce the risk of chronic conditions such as heart disease, type 2 diabetes, hypertension, and certain types of cancer. It helps regulate cholesterol, blood sugar, and blood pressure, which are key factors in disease prevention.
-        </p>
-    
-        <h4>General Tips:</h4>
-        <ul>
-            <li>Drink at least 1.5–2 liters of water per day</li>
-            <li>Include protein in each meal to support muscle growth and overall development</li>
-            <li>Avoid sugary foods, soda, and ultra-processed items</li>
-            <li>Adjust portion sizes based on physical activity and energy needs</li>
-        </ul>
-    </section>
+        <section class="intro">
+            <p>Welcome to our team project! Our goal is to raise awareness among teenagers about healthy eating habits across different cultures.</p>
+        </section>
 
-    <div class="perspectives">
-        <h4>Perspectives from Our Interviews</h4>
-        <p>
-            We recently interviewed a few friends to understand their perspectives on diet and physical activity. Here are their responses:
-        </p>
-    
-        <ul>
-            <li><strong>Giovanni:</strong> Maintains a good physical condition despite a relaxed diet of pasta, pizza, and occasional proteins. His active lifestyle and possibly fast metabolism may be helping him stay in shape, even without a strict diet plan</li>
-            <li><strong>Alice:</strong> Eats healthily and exercises consistently, yet is not seeing the results she hopes for. Possible factors include caloric intake, recovery issues, or a training plan not aligned with her specific fitness goals</li>
-            <li><strong>Marco:</strong> Relies on home-cooked meals without following a fixed dietary plan, but stays fit thanks to his daily training. His case suggests that regular exercise can sometimes make up for less-structured diet</li>
-        </ul>
-    
-        <h4>Current Trends in Italy</h4>
-        <p>
-            In Italy, healthy habits are not a strong priority among teenagers. According to a recent survey of 89,321 youths:
-        </p>
-        <ul>
-            <li>Only 7.5% exercise daily, while 13.8% never do any physical activity</li>
-            <li>Screen time is rising, 26.5% of 17-year-olds spend over 5 hours a day on social media</li>
-            <li>26.8% skip breakfast entirely, while 12% eat sweets at least once a day</li>
-            <li>Fruit and vegetable intake is extremely low: 6% never eat fruit, and 7.4% never eat vegetables</li>
-            <li>Excess fats and sugars are consumed 2–4 times a week by 29.4% of teens, and daily by 26.2%</li>
-        </ul>
-    
-        <h4>A Global perspective</h4>
-        <p>
-            A WHO/Europe report reveals that healthy eating is declining among adolescents globally:
-        </p>
-        <ul>
-            <li>Less than 40% of teenagers eat fruits or vegetables daily, and the numbers drop with age</li>
-            <li>25% of youths consume sweets every day, with rates higher among girls</li>
-            <li>15% drink sugary soft drinks daily, especially among those from lower-income families</li>
-            <li>Physical inactivity remains a concern, with many teenagers not meeting the recommended levels of daily physical activity</li>
-        </ul>
-        <p>
-            Dr. Martin Weber from WHO/Europe highlights that affordability and access remain major challenges. These issues often push low-income families toward processed foods, which can seriously harm adolescents' health.
-        </p>
+        <section class="diet-info">
+            <h3>Why a Balanced Diet Matters</h3>
+            <p>A balanced diet keeps us healthy and energized. It helps our body get the right mix of nutrients for daily activities, growth, and mental sharpness.</p>
+            <p>For teens, kids, and expecting mothers, proper nutrition is essential for development and reproduction. Key nutrients like calcium, iron, and folic acid are vital.</p>
+            <p>Eating well boosts energy, lowers disease risks, and regulates essential functions like blood sugar and pressure.</p>
+
+            <h4>General Tips:</h4>
+            <ul>
+                <li>Drink at least 1.5–2 liters of water daily</li>
+                <li>Include protein in every meal</li>
+                <li>Avoid sugary foods, sodas, and ultra-processed snacks</li>
+                <li>Adjust portions based on physical activity</li>
+            </ul>
+        </section>
+
+        <section class="perspectives">
+            <h4>Perspectives from Our Interviews</h4>
+            <p>We asked a few friends about their diets and routines. Here’s what they shared:</p>
+            <ul>
+                <li><strong>Giovanni:</strong> Active lifestyle keeps him fit despite a relaxed pasta-pizza-based diet.</li>
+                <li><strong>Alice:</strong> Eats well and trains consistently, but results lag — maybe due to intake, recovery, or plan issues.</li>
+                <li><strong>Marco:</strong> Stays fit thanks to daily workouts despite no formal diet.</li>
+            </ul>
+
+            <h4>Current Trends in Italy</h4>
+            <p>A recent survey of 89,321 teens revealed:</p>
+            <ul>
+                <li>Only 7.5% exercise daily, 13.8% never do</li>
+                <li>26.5% of 17-year-olds spend over 5 hours/day on social media</li>
+                <li>26.8% skip breakfast, 12% eat sweets daily</li>
+                <li>Low fruit/veg intake: 6% never eat fruit, 7.4% never eat vegetables</li>
+                <li>Excess fats and sugars: consumed 2–4 times a week by 29.4%, and daily by 26.2%</li>
+            </ul>
+
+            <h4>A Global Perspective</h4>
+            <p>WHO/Europe highlights:</p>
+            <ul>
+                <li>Less than 40% of teens eat fruits or veggies daily</li>
+                <li>25% consume sweets every day</li>
+                <li>15% drink sugary drinks daily, mostly among lower-income families</li>
+                <li>Physical inactivity is widespread</li>
+            </ul>
+        </section>
+
+        <section class="diet-table">
+            <h3>Example of a Balanced Weekly Diet</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Breakfast</th>
+                        <th>Lunch</th>
+                        <th>Snack</th>
+                        <th>Dinner</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Monday</td><td>Oats + Fruit</td><td>Chicken salad + Rice</td><td>Yogurt</td><td>Vegetable soup + Bread</td></tr>
+                    <tr><td>Tuesday</td><td>Toast + Eggs</td><td>Whole grain pasta + Veggies</td><td>Fruit</td><td>Grilled fish + Potatoes</td></tr>
+                    <tr><td>Wednesday</td><td>Smoothie</td><td>Rice + Beans</td><td>Nuts</td><td>Chicken + Veggies</td></tr>
+                    <tr><td>Thursday</td><td>Fruit + Yogurt</td><td>Grain bowl + Hummus</td><td>Carrot sticks</td><td>Eggplant stew + Bread</td></tr>
+                    <tr><td>Friday</td><td>Cereal + Milk</td><td>Sandwich + Salad</td><td>Granola bar</td><td>Pizza (homemade style)</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="calculator-container">
+            <h2>Calorie Intake Calculator</h2>
+            <label for="peso">Weight (kg):</label>
+            <input type="number" id="peso" required>
+            <label for="altezza">Height (cm):</label>
+            <input type="number" id="altezza" required>
+            <label for="eta">Age:</label>
+            <input type="number" id="eta" required>
+            <label for="sesso">Gender:</label>
+            <select id="sesso">
+                <option value="maschio">Male</option>
+                <option value="femmina">Female</option>
+            </select>
+            <label for="attivita">Physical activity:</label>
+            <select id="attivita">
+                <option value="1.2">Sedentary</option>
+                <option value="1.375">Lightly active</option>
+                <option value="1.55">Moderately active</option>
+                <option value="1.725">Very active</option>
+                <option value="1.9">Extremely active</option>
+            </select>
+            <button onclick="calcolaFabbisogno()">Calculate</button>
+            <div id="result"></div>
+        </section>
+
     </div>
-    
 
-
-    
-    <section class="diet-table">
-        <h3>Example of a Balanced Weekly Diet</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Day</th>
-                    <th>Breakfast</th>
-                    <th>Lunch</th>
-                    <th>Snack</th>
-                    <th>Dinner</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Monday</td>
-                    <td>Oats + Fruit</td>
-                    <td>Chicken salad + Rice</td>
-                    <td>Yogurt</td>
-                    <td>Vegetable soup + Bread</td>
-                </tr>
-                <tr>
-                    <td>Tuesday</td>
-                    <td>Toast + Eggs</td>
-                    <td>Whole grain pasta + Veggies</td>
-                    <td>Fruit</td>
-                    <td>Grilled fish + Potatoes</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>Smoothie</td>
-                    <td>Rice + Beans</td>
-                    <td>Nuts</td>
-                    <td>Chicken + Veggies</td>
-                </tr>
-                <tr>
-                    <td>Thursday</td>
-                    <td>Fruit + Yogurt</td>
-                    <td>Grain bowl + Hummus</td>
-                    <td>Carrot sticks</td>
-                    <td>Eggplant stew + Bread</td>
-                </tr>
-                <tr>
-                    <td>Friday</td>
-                    <td>Cereal + Milk</td>
-                    <td>Sandwich + Salad</td>
-                    <td>Granola bar</td>
-                    <td>Pizza (homemade style)</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    
-    <section class="calculator-container">
-        <h2>Calorie Intake Calculator</h2>
-        <label for="peso">Weight (kg):</label>
-        <input type="number" id="peso" required>
-
-        <label for="altezza">Height (cm):</label>
-        <input type="number" id="altezza" required>
-
-        <label for="eta">Age:</label>
-        <input type="number" id="eta" required>
-
-        <label for="sesso">Gender:</label>
-        <select id="sesso">
-            <option value="maschio">Male</option>
-            <option value="femmina">Female</option>
-        </select>
-
-        <label for="attivita">Physical activity:</label>
-        <select id="attivita">
-            <option value="1.2">Sedentary (little or no exercise)</option>
-            <option value="1.375">Lightly active (light exercise 1-3 days a week)</option>
-            <option value="1.55">Moderately active (3-5 days a week)</option>
-            <option value="1.725">Very active (6-7 days a week)</option>
-            <option value="1.9">Extremely active (heavy physical work/daily intense exercise)</option>
-        </select>
-
-        <button onclick="calcolaFabbisogno()">Calculate</button>
-
-        <div id="result"></div>
-    </section>
     <footer class="footer">
         <p>Made by: Conforti Federico, Wang Andrea, Pola Gabriele, Cimetti Lorenzo</p>
         <p>Global Perspectives | Health & Well-being</p>
@@ -208,19 +129,17 @@
             const eta = parseInt(document.getElementById('eta').value);
             const sesso = document.getElementById('sesso').value;
             const attivita = parseFloat(document.getElementById('attivita').value);
-
             let bmr;
             if (sesso === 'maschio') {
                 bmr = 10 * peso + 6.25 * altezza - 5 * eta + 5;
             } else {
                 bmr = 10 * peso + 6.25 * altezza - 5 * eta - 161;
             }
-
             const fabbisogno = bmr * attivita;
-
             document.getElementById('result').innerText = 
                 `Your daily calorie requirement is approximately ${Math.round(fabbisogno)} kcal.`;
         }
     </script>
+
 </body>
 </html>
